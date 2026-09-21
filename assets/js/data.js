@@ -1,0 +1,75 @@
+/* SpaceWorkers.com — content data. Add rows to grow the directory; pages render from here. */
+window.SW_DATA = {
+  employers: [
+    {n:"NASA",s:"Agency",r:"North America",t:["Engineering","Science","Internships"],u:"https://www.nasa.gov/careers/",d:"US civil space agency — civil-service roles via USAJOBS plus large contractor ecosystem."},
+    {n:"European Space Agency (ESA)",s:"Agency",r:"Europe",t:["Engineering","Graduate Trainee","Science"],u:"https://careers.esa.int/",d:"Staff posts, Young Graduate Trainee and internships across 23 member states."},
+    {n:"Canadian Space Agency",s:"Agency",r:"North America",t:["Engineering","Science","Students"],u:"https://www.asc-csa.gc.ca/eng/jobs/",d:"Federal roles, student programs and astronaut recruitment campaigns."},
+    {n:"ISRO",s:"Agency",r:"Asia",t:["Engineering","Science"],u:"https://www.isro.gov.in/",d:"India's space agency — scientist/engineer recruitment through centralised exams."},
+    {n:"JAXA",s:"Agency",r:"Asia",t:["Engineering","Science"],u:"https://global.jaxa.jp/",d:"Japan Aerospace Exploration Agency — R&D, launch and exploration careers."},
+    {n:"SpaceX",s:"Launch",r:"North America",t:["Engineering","Manufacturing","Software"],u:"https://www.spacex.com/careers",d:"Launch, Starship and Starlink — high-volume hiring in build, test and software."},
+    {n:"Blue Origin",s:"Launch",r:"North America",t:["Engineering","Manufacturing","Operations"],u:"https://www.blueorigin.com/careers",d:"New Glenn, New Shepard, lunar landers and in-space systems."},
+    {n:"Rocket Lab",s:"Launch",r:"Global",t:["Engineering","Manufacturing","Spacecraft"],u:"https://www.rocketlabusa.com/careers/",d:"Electron, Neutron and spacecraft components — US and New Zealand."},
+    {n:"Relativity Space",s:"Launch",r:"North America",t:["Engineering","Manufacturing"],u:"https://www.relativityspace.com/careers",d:"Terran R reusable launch vehicle development."},
+    {n:"Firefly Aerospace",s:"Launch",r:"North America",t:["Engineering","Lunar"],u:"https://fireflyspace.com/careers/",d:"Launch vehicles and Blue Ghost lunar landers."},
+    {n:"Axiom Space",s:"Stations & Human Spaceflight",r:"North America",t:["Engineering","Operations","Spacesuits"],u:"https://www.axiomspace.com/careers",d:"Commercial space station modules, private missions and spacesuits."},
+    {n:"Sierra Space",s:"Stations & Human Spaceflight",r:"North America",t:["Engineering","Operations"],u:"https://www.sierraspace.com/careers/",d:"Dream Chaser spaceplane and inflatable habitats."},
+    {n:"Vast",s:"Stations & Human Spaceflight",r:"North America",t:["Engineering","Manufacturing"],u:"https://www.vastspace.com/careers",d:"Commercial space station development."},
+    {n:"Intuitive Machines",s:"Lunar",r:"North America",t:["Engineering","Operations"],u:"https://www.intuitivemachines.com/careers",d:"Lunar landers, data relay and lunar surface services."},
+    {n:"Planet",s:"Earth Observation",r:"Global",t:["Software","Data","Sales"],u:"https://www.planet.com/company/careers/",d:"Daily Earth imaging constellation and geospatial analytics."},
+    {n:"Astroscale",s:"In-Space Services",r:"Global",t:["Engineering","GNC"],u:"https://astroscale.com/careers/",d:"Debris removal, life extension and in-orbit servicing."},
+    {n:"Varda Space",s:"In-Space Manufacturing",r:"North America",t:["Engineering","Manufacturing"],u:"https://www.varda.com/careers",d:"Orbital manufacturing and hypersonic re-entry capsules."},
+    {n:"MDA Space",s:"Satellites & Robotics",r:"North America",t:["Engineering","Robotics"],u:"https://mda.space/careers",d:"Space robotics, satellite systems and geointelligence (Canada)."},
+    {n:"Airbus Defence and Space",s:"Satellites & Robotics",r:"Europe",t:["Engineering","Manufacturing"],u:"https://www.airbus.com/en/careers",d:"Satellites, launchers (via ArianeGroup) and space exploration systems."},
+    {n:"Thales Alenia Space",s:"Satellites & Robotics",r:"Europe",t:["Engineering","Manufacturing"],u:"https://careers.thalesgroup.com/",d:"Telecom, navigation, observation satellites and station modules."},
+    {n:"Lockheed Martin Space",s:"Defense & Primes",r:"North America",t:["Engineering","Security Clearance"],u:"https://www.lockheedmartinjobs.com/",d:"Orion, GPS III, missile warning and national security space."},
+    {n:"Northrop Grumman",s:"Defense & Primes",r:"North America",t:["Engineering","Security Clearance"],u:"https://www.northropgrumman.com/careers",d:"Cygnus, solid rocket motors, satellites and defense space."},
+    {n:"Boeing",s:"Defense & Primes",r:"North America",t:["Engineering","Manufacturing"],u:"https://jobs.boeing.com/",d:"SLS core stage, Starliner and satellite systems."},
+    {n:"USAJOBS — federal space roles",s:"Agency",r:"North America",t:["Government","Security Clearance"],u:"https://www.usajobs.gov/search/results/?k=space",d:"Live federal listings across NASA, NOAA, Space Force civilian and more."}
+  ],
+  salaries: [
+    ["Flight Software Engineer","Engineering",110,190,"Very high"],
+    ["GNC Engineer","Engineering",110,190,"Very high"],
+    ["Systems Engineer","Engineering",100,180,"Very high"],
+    ["Propulsion Engineer","Engineering",95,175,"High"],
+    ["RF / Communications Engineer","Engineering",100,175,"High"],
+    ["Aerospace / Structures Engineer","Engineering",85,165,"High"],
+    ["Test Engineer","Engineering",85,150,"High"],
+    ["Data Scientist / Geospatial Analyst","Data",95,170,"High"],
+    ["Program Manager","Business",120,200,"Medium"],
+    ["Business Development","Business",90,180,"Medium"],
+    ["Mission / Satellite Operations","Operations",70,130,"High"],
+    ["Quality Assurance Engineer","Operations",75,135,"Medium"],
+    ["Supply Chain Manager","Business",70,130,"Medium"],
+    ["Space Policy Analyst","Policy",70,140,"Medium"],
+    ["Manufacturing Technician","Trades",50,95,"Very high"],
+    ["Composite / Avionics Technician","Trades",55,100,"Very high"]
+  ],
+  videos: [
+    {id:"4jPaVOb8BjU",t:"Careers at NASA — more than just astronauts",c:"Careers"},
+    {id:"34remMNktwQ",t:"How to become an astronaut with NASA",c:"Astronauts"},
+    {id:"ArKsi2wwbhw",t:"Pathways to careers in space science",c:"Careers"},
+    {id:"vJr4VSvrpog",t:"Day in the life of an aerospace engineer",c:"Day in the life"},
+    {id:"bnxcib-8S4s",t:"Aerospace engineers — career video",c:"Careers"},
+    {id:"OZQcj57r34E",t:"Space careers: NASA astronaut Dr Stan Love",c:"Astronauts"}
+  ],
+  contests: [
+    {id:"patch",t:"Mission Patch Design Challenge",cat:"Design",prize:"$2,500",end:"2026-12-15",ico:"🎨",d:"Design the official SpaceWorkers Season 1 mission patch. Winner is printed and shipped to the community.",who:"Open to all, 16+"},
+    {id:"pitch",t:"Space Startup Pitch Challenge",cat:"Business",prize:"$10,000",end:"2027-02-28",ico:"🚀",d:"3-minute video pitch for a space startup. Finalists pitch live to operators and investors.",who:"Founders & student teams"},
+    {id:"story",t:"My Space Career — Video Challenge",cat:"Video",prize:"$3,000",end:"2027-01-31",ico:"🎬",d:"Show a day in your space job in under 90 seconds. Top entries feature on the SpaceWorkers YouTube channel.",who:"Working professionals"},
+    {id:"cubesat",t:"Student CubeSat Mission Concept",cat:"Engineering",prize:"$5,000",end:"2027-03-31",ico:"🛰️",d:"Propose a 3U CubeSat mission: objective, payload, power & comms budget, and cost.",who:"University & high-school teams"},
+    {id:"astro",t:"Astrophotography Awards",cat:"Photography",prize:"$1,500",end:"2026-11-30",ico:"🔭",d:"Your best deep-sky, planetary or launch photograph. Categories for smartphone and pro rigs.",who:"Open to all"},
+    {id:"policy",t:"Space Policy Essay Prize",cat:"Writing",prize:"$2,000",end:"2027-01-15",ico:"✍️",d:"1,500 words on how to close the space workforce gap by 2030.",who:"Students & early-career"}
+  ],
+  programs: [
+    {n:"NASA Internships (OSTEM)",k:"Internship",u:"https://intern.nasa.gov/",d:"Paid spring, summer and fall internships at NASA centers."},
+    {n:"ESA Young Graduate Trainee",k:"Graduate",u:"https://careers.esa.int/",d:"One-year paid traineeship for recent master's graduates."},
+    {n:"Brooke Owens Fellowship",k:"Fellowship",u:"https://www.brookeowensfellowship.org/",d:"Paid internship + executive mentor for undergraduate women and gender minorities."},
+    {n:"Matthew Isakowitz Fellowship",k:"Fellowship",u:"https://www.isakowitzfellowship.org/",d:"Commercial spaceflight internship with a senior mentor."},
+    {n:"Patti Grace Smith Fellowship",k:"Fellowship",u:"https://www.pgsfellowship.org/",d:"Aerospace internships and mentorship for Black undergraduates."},
+    {n:"SEDS — Students for the Exploration and Development of Space",k:"Community",u:"https://seds.org/",d:"100+ US chapters, SpaceVision conference and competitions."},
+    {n:"NASA Space Apps Challenge",k:"Hackathon",u:"https://www.spaceappschallenge.org/",d:"Global annual hackathon with 2,800+ local events."},
+    {n:"Space Foundation",k:"Education",u:"https://www.spacefoundation.org/",d:"Space Symposium, education programs and National Space Interns."},
+    {n:"International Space University",k:"Degree",u:"https://www.isunet.edu/",d:"Interdisciplinary master's and the Space Studies Program."},
+    {n:"ISS National Lab Fellowships",k:"Fellowship",u:"https://issnationallab.org/",d:"Research fellowships using the International Space Station."}
+  ]
+};
