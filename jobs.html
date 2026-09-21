@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Space Jobs — Employer Directory & Job Alerts | SpaceWorkers</title>
+<meta name="description" content="Search space industry employers by sector and region — launch, satellites, stations, lunar, Earth observation, defense and agencies — and get weekly space job alerts.">
+<link rel="canonical" href="https://spaceworkers.com/jobs.html">
+<meta property="og:type" content="website"><meta property="og:site_name" content="SpaceWorkers">
+<meta property="og:title" content="Space Jobs — Employer Directory & Job Alerts | SpaceWorkers"><meta property="og:description" content="Search space industry employers by sector and region — launch, satellites, stations, lunar, Earth observation, defense and agencies — and get weekly space job alerts.">
+<meta property="og:image" content="assets/img/og.svg"><meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#05070f">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml"><link rel="manifest" href="manifest.webmanifest">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-page="jobs">
+<noscript><p style="padding:12px;text-align:center"><a href="https://web.works/contact">Contact, if you are interested in this website/domain name</a> · <a href="index.html">Home</a> · <a href="jobs.html">Jobs</a> · <a href="hire.html">Hire</a> · <a href="connect.html">Get started</a></p></noscript>
+<main>
+<section class="page-hero">
+  <div class="container">
+    <span class="eyebrow">Space jobs</span>
+    <h1>Find your <span class="grad">space job</span></h1>
+    <p>Search the employers hiring across the space economy, go straight to their live openings, and get new roles delivered weekly.</p>
+  </div>
+</section>
+<section style="padding-top:0">
+  <div class="container">
+    <div class="search-box">
+      <input id="jobQ" type="search" placeholder="Search by company, skill or sector…" aria-label="Search employers">
+      <select id="jobSector" aria-label="Sector"></select>
+      <select id="jobRegion" aria-label="Region"></select>
+    </div>
+    <p class="center small muted mb"><span id="empCount"></span> · links open each employer's official careers page</p>
+    <div class="grid g3" id="employerGrid"></div>
+  </div>
+</section>
+
+<div class="ad-slot" data-ad="inContent"></div>
+
+<section class="alt">
+  <div class="container split">
+    <div>
+      <span class="eyebrow">Featured jobs</span>
+      <h2>Featured listings</h2>
+      <p class="mt">Featured roles are paid placements from employers and appear here, in the weekly brief and across social channels.</p>
+      <div class="card mt" style="border-style:dashed"><span class="tag hot">Your role here</span><h3 style="margin-top:12px">Hiring? Feature your opening</h3><p class="small">Pinned placement, newsletter inclusion and a social push to thousands of space professionals.</p><a class="btn btn-primary btn-sm mt" href="hire.html#pricing">See employer plans</a></div>
+    </div>
+    <form class="form-card" data-form="Job Alert" data-ok="Job alert created. Your first brief arrives this week.">
+      <h3>🔔 Create a space job alert</h3><p class="small" style="margin:6px 0 18px">Get matching roles weekly. Free.</p>
+      <input class="hp" name="_honey" tabindex="-1" autocomplete="off">
+      <div class="field"><label for="a1">Email</label><input id="a1" type="email" name="email" required></div>
+      <div class="form-row">
+        <div class="field"><label for="a2">Role family</label><select id="a2" name="role_family" required><option value="">Select…</option><option>Software / Flight software</option><option>Systems / GNC</option><option>Propulsion</option><option>RF / Avionics</option><option>Mechanical / Structures</option><option>Technician / Manufacturing</option><option>Mission operations</option><option>Data / Geospatial</option><option>Business / Policy / Legal</option><option>Internship</option></select></div>
+        <div class="field"><label for="a3">Location</label><select id="a3" name="location"><option>Anywhere / Remote</option><option>North America</option><option>Europe</option><option>Asia-Pacific</option><option>Middle East & Africa</option><option>Latin America</option></select></div>
+      </div>
+      <div class="field"><label for="a4">Frequency</label><select id="a4" name="frequency"><option>Weekly</option><option>Daily</option><option>Monthly</option></select></div>
+      <label class="check"><input type="checkbox" name="consent" value="yes" required> I agree to receive job alerts. Unsubscribe anytime.</label>
+      <button class="btn btn-primary btn-block" type="submit">Create alert</button>
+    </form>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="section-head"><span class="eyebrow">Apply smarter</span><h2>Before you hit "apply"</h2></div>
+    <div class="grid g3">
+      <div class="card reveal"><div class="ico">🛂</div><h3>Check export control</h3><p class="small">Many US roles are ITAR/EAR-restricted to US persons. Read the <a href="insights.html#itar">ITAR explainer</a> first.</p></div>
+      <div class="card reveal"><div class="ico">📄</div><h3>Show hardware or code</h3><p class="small">Rocketry teams, CubeSats, GitHub repos and test data beat GPA. Link a portfolio.</p></div>
+      <div class="card reveal"><div class="ico">🤝</div><h3>Use warm intros</h3><p class="small">Referral hires dominate at startups. <a href="connect.html?as=Job%20seeker">Join the talent network</a> for introductions.</p></div>
+    </div>
+  </div>
+</section>
+</main>
+<script src="assets/js/config.js"></script><script src="assets/js/data.js"></script><script src="assets/js/main.js"></script>
+</body>
+</html>
